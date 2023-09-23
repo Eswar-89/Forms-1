@@ -6,7 +6,7 @@ body{
 #form{
     background-color: rgb(241, 248, 254);
     max-width: 500px;
-    margin: 50px auto;
+    margin: 10px auto;
     padding: 10px 50px;
     box-sizing: border-box;
 }
@@ -17,8 +17,6 @@ body{
 }
 .in-form label{
     display: block;
-    margin-bottom: 10px;
-
 }
 .in-form input,
 .in-form text{
