@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(182, 220, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#form{
+    background-color: rgb(241, 248, 254);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+.in-form{
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+.in-form label{
+    display: block;
+    margin-bottom: 10px;
+
+}
+.in-form input,
+.in-form text,
+.in-form select{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+}
+.in-form input[type="radio"],
+.in-form input[type="checkbox"]{
+    display: inline-block; 
+    width: auto;
+}
+.in-form input[type="submit"],
+.in-form input[type="reset"]{
+   background-color:rgb(182, 220, 224) ;
+}
